@@ -6,7 +6,7 @@ import {ForecastList} from "@/components/weather/ForecastList";
 import ApiLoader from "@/components/share/ApiLoader";
 import useApiCall from "@/hook/useApiCall";
 import {weatherResponse} from "@/components/types/api/weatherResponse";
-import WeatherApiRender, {ForcastApiRender} from "@/components/api";
+import WeatherApiRender, {ForcastApiRender} from "@/components/api/api";
 import {forcastProps, weatherProps} from "@/components/types/api/fetcherProps";
 import {forecastResponse} from "@/components/types/api/forecastResponse";
 interface Props{
